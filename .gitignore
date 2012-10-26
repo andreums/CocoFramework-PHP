@@ -1,4 +1,5 @@
 .project
+.settings/*
 framework/config/*
 framework/cache/*
 framework/cache
