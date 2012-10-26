@@ -1,13 +1,9 @@
 .project
 .settings/*
-framework/config/*
-framework/cache/*
-framework/cache
-framework/cache/data
+framework/cache/data/*
 framework/cache/framework
-framework/cache/framework/router
-framework/cache/framework/schemas
+framework/cache/framework/router/*
+framework/cache/framework/schemas/*
 framework/cache/framework/schemas/serialized_activerecord_manager.ser
-framework/log/*
 framework/log/403.log
 framework/log/404.log
