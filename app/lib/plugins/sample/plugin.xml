@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>sample</name>
+	<class>sample</class>
+	<version>0.1</version>
+	<description>
+		sample
+	</description>
+	<status>enabled</status>
+
+	<options>
+	</options>
+
+	<files>
+		<file name="plugin.php" />
+	</files>
+
+	<jsFiles>
+
+	</jsFiles>
+
+</plugin>

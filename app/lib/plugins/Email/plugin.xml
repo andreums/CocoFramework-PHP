@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Email</name>
+	<class>EmailPlugin</class>
+	<version>0.1</version>
+	<description>
+		Facilities to send email
+	</description>
+	<status>enabled</status>
+
+	<options>
+		<option name="mailMethod">
+			<value>sendmail</value>
+		</option>
+		<option name="from">
+			<value>doowebwebwork@gmail.com|WebWork</value>
+		</option>
+		<option name="smtpHost">
+			<value>smtp.gmail.com</value>
+		</option>
+		<option name="smtpPort">
+			<value>465</value>
+		</option>
+		<option name="smtpSecurity">
+			<value>ssl</value>
+		</option>
+		<option name="enableSMTPAuthentication">
+			<value>true</value>
+		</option>
+		<option name="smtpUsername">
+			<value>doowebwebwork@gmail.com</value>
+		</option>
+		<option name="smtpPassword">
+			<value>[webwork]</value>
+		</option>
+	</options>
+
+	<files>
+		<file name="plugin.php" />
+	</files>
+
+	<jsFiles>
+
+	</jsFiles>
+
+</plugin>

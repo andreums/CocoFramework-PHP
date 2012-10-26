@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<routes>
+	
+	<route>
+		<url>/saludar/:name</url>
+		<type>plugin</type>
+		<plugin>sample</plugin>
+		<action>saludar</action>
+		<internal>false</internal>
+		<parameters>
+			<parameter name="name" type="string" required="true" />
+		</parameters>		
+	</route>	
+
+</routes>

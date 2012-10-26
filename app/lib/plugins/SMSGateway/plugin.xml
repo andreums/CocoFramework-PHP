@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>SMSGateway</name>
+	<class>SMSGatewayPlugin</class>
+	<version>0.1</version>
+	<description>
+		Short Message Service Gateway
+	</description>
+	<status>enabled</status>
+
+	<options>
+		<option name="provider">
+			<value>bulkSMS</value>
+		</option>
+		<option name="username">
+			<value>ayito</value>
+		</option>
+		<option name="password">
+			<value>1235813</value>
+		</option>
+		<option name="country">
+			<value>spain</value>
+		</option>
+		<option name="sender">
+			<value>OPENXARXES</value>
+		</option>
+		<option name="repliable">
+			<value>1</value>
+		</option>
+	</options>
+
+	<files>
+		<file name="plugin.php" />
+	</files>
+
+	<jsFiles>
+	</jsFiles>
+</plugin>

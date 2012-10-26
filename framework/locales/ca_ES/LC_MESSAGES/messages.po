@@ -1,0 +1,752 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-11 17:32+0100\n"
+"PO-Revision-Date: 2012-04-30 13:43+0100\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: modules/rest/view/error/news/newsNotFound.php:2
+#: modules/rest/view/news/newsNotFound.php:2
+#: modules/webservices/view/error/news/newsNotFound.php:2
+msgid "Error: La noticia seleccionada no existe o no está publicada"
+msgstr ""
+
+#: modules/rest/view/news/news.php:5
+msgid "Escrito por "
+msgstr ""
+
+#: modules/rest/view/news/news.php:5
+#: modules/admin/view/pages/page/page.php:7
+#: modules/index/view/pages/page/page.php:7
+#: modules/content/view/pages/page/page.php:7
+msgid " el "
+msgstr ""
+
+#: modules/admin/controller/pagesController.php:116
+#: modules/admin/view/pages/main.php:46
+msgid "Páginas"
+msgstr ""
+
+#: modules/admin/controller/usersController.php:74
+msgid "Usuario bloqueado con éxito"
+msgstr ""
+
+#: modules/admin/controller/usersController.php:78
+msgid "Usuario desbloqueado con éxito"
+msgstr ""
+
+#: modules/admin/controller/usersController.php:83
+msgid "Ocurrió un error al intentar bloquear/desbloquear el usuario"
+msgstr ""
+
+#: modules/admin/controller/usersController.php:103
+msgid "Usuario borrado con éxito"
+msgstr ""
+
+#: modules/admin/controller/usersController.php:107
+#: modules/admin/controller/usersController.php:112
+msgid "Ocurrió un error al intentar borrar el usuario"
+msgstr ""
+
+#: modules/admin/view/loginbox.php:6
+#: modules/admin/view/loginbox.php:22
+#: modules/index/view/loginbox.php:6
+#: modules/index/view/loginbox.php:22
+#: modules/content/view/loginbox.php:6
+#: modules/content/view/loginbox.php:22
+msgid "Login"
+msgstr ""
+
+#: modules/admin/view/loginbox.php:10
+#: modules/admin/view/users/grid.php:46
+#: modules/admin/view/login.php:10
+#: modules/index/view/loginbox.php:10
+#: modules/content/view/loginbox.php:10
+#: modules/user/view/login.php:10
+msgid "Usuario"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:2
+#: modules/admin/view/users/main.php:2
+msgid "Administración de usuarios"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:11
+msgid "Tipo de usuarios"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:16
+msgid "Todos"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:19
+msgid "No bloqueados"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:22
+msgid "Bloqueados"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:28
+#: modules/admin/view/pages/main.php:34
+#: framework/lib/error/view/defaultNotFoundError.php:11
+#: framework/lib/error/view/defaultInternalError.php:4
+#: framework/lib/error/view/defaultForbiddenError.php:13
+msgid "Acciones"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:32
+msgid "Bloquear/Desbloquear"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:33
+msgid "Reiniciar contraseña"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:34
+#: modules/admin/view/pages/main.php:40
+#: modules/admin/view/pages/page/new.php:60
+#: modules/admin/view/pages/page/edit.php:64
+msgid "Borrar"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:41
+#: modules/admin/view/menu.php:21
+#: modules/index/view/menu.php:21
+#: modules/content/view/menu.php:21
+msgid "Usuarios"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:47
+msgid "Nombre"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:48
+msgid "Email"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:49
+msgid "Fecha de registro"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:50
+#: modules/admin/view/pages/main.php:55
+msgid "Estado"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:51
+msgid "Roles"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:60
+msgid "Usuario no seleccionado"
+msgstr ""
+
+#: modules/admin/view/users/grid.php:63
+msgid "Error: debe seleccionar un usuario antes de intentar realizar la operación."
+msgstr ""
+
+#: modules/admin/view/users/main.php:9
+#: modules/admin/view/users/main.php:10
+#: modules/user/view/home.php:12
+#: modules/user/view/home.php:13
+msgid "Siguiendo"
+msgstr ""
+
+#: modules/admin/view/users/main.php:16
+#: modules/admin/view/users/main.php:17
+#: modules/admin/view/users/main.php:18
+#: modules/user/view/home.php:19
+#: modules/user/view/home.php:20
+#: modules/user/view/home.php:21
+msgid "Opciones personales"
+msgstr ""
+
+#: modules/admin/view/login.php:2
+#: modules/user/view/login.php:2
+msgid "Inicio de sesión"
+msgstr ""
+
+#: modules/admin/view/login.php:17
+#: modules/user/view/login.php:17
+msgid "Contraseña"
+msgstr ""
+
+#: modules/admin/view/login.php:25
+#: modules/user/view/login.php:25
+msgid "Iniciar sesión"
+msgstr ""
+
+#: modules/admin/view/login.php:26
+#: modules/user/view/login.php:26
+msgid "Restablecer"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:4
+msgid "Administración de páginas"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:17
+msgid "Tipo de páginas"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:22
+msgid "Todas"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:25
+msgid "Publicadas"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:28
+msgid "No publicadas"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:38
+msgid "Nueva"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:39
+msgid "Editar"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:51
+msgid "ID"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:52
+#: modules/admin/view/pages/page/new.php:26
+#: modules/admin/view/pages/page/edit.php:30
+msgid "Título"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:53
+msgid "Autor"
+msgstr ""
+
+#: modules/admin/view/pages/main.php:54
+msgid "Fecha de modificación"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:2
+#: modules/admin/view/pages/page/new.php:10
+msgid "Página nueva"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:11
+#: modules/admin/view/pages/page/new.php:49
+#: modules/admin/view/pages/page/edit.php:17
+#: modules/admin/view/pages/page/edit.php:53
+msgid "Página padre"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:12
+#: modules/admin/view/pages/page/edit.php:18
+#: modules/admin/view/pages/page/edit.php:65
+msgid "Previsualizar"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:18
+msgid "Datos de la nueva página"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:33
+#: modules/admin/view/pages/page/edit.php:37
+msgid "URL"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:41
+#: modules/admin/view/pages/page/edit.php:45
+msgid "Contenido"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:54
+#: modules/admin/view/pages/page/edit.php:58
+msgid "Página seleccionada"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:54
+#: modules/admin/view/pages/page/edit.php:58
+msgid "Sin página padre"
+msgstr ""
+
+#: modules/admin/view/pages/page/new.php:59
+#: modules/admin/view/pages/page/edit.php:63
+msgid "Guardar"
+msgstr ""
+
+#: modules/admin/view/pages/page/edit.php:8
+msgid "Editar página"
+msgstr ""
+
+#: modules/admin/view/pages/page/edit.php:16
+msgid "Página"
+msgstr ""
+
+#: modules/admin/view/pages/page/edit.php:22
+msgid "Datos de la página"
+msgstr ""
+
+#: modules/admin/view/pages/page/page.php:7
+#: modules/index/view/pages/page/page.php:7
+#: modules/content/view/pages/page/page.php:7
+msgid "Por "
+msgstr ""
+
+#: modules/admin/view/pages/page/page.php:16
+#: modules/index/view/pages/page/page.php:16
+#: modules/content/view/pages/page/page.php:16
+msgid "Páginas relacionadas"
+msgstr ""
+
+#: modules/admin/view/pages/page/page.php:46
+#: modules/index/view/pages/page/page.php:46
+#: modules/content/view/pages/page/page.php:46
+msgid "No hay páginas relacionadas"
+msgstr ""
+
+#: modules/admin/view/containers/userLoged.php:3
+#: modules/index/view/containers/userLoged.php:3
+#: modules/content/view/containers/userLoged.php:3
+#: modules/user/view/containers/userLoged.php:3
+msgid "Autenticado como usuario"
+msgstr ""
+
+#: modules/admin/view/containers/userLoged.php:5
+#: modules/index/view/containers/userLoged.php:5
+#: modules/content/view/containers/userLoged.php:5
+#: modules/user/view/containers/userLoged.php:5
+msgid "Preferencias"
+msgstr ""
+
+#: modules/admin/view/containers/userLoged.php:7
+#: modules/index/view/containers/userLoged.php:7
+#: modules/content/view/containers/userLoged.php:7
+#: modules/user/view/containers/userLoged.php:7
+msgid "Cerrar sesión"
+msgstr ""
+
+#: modules/admin/view/menu.php:2
+#: modules/index/view/menu.php:2
+#: modules/content/view/menu.php:2
+msgid "Mensajes"
+msgstr ""
+
+#: modules/admin/view/menu.php:5
+#: modules/index/view/menu.php:5
+#: modules/content/view/menu.php:5
+msgid "Enviar mensaje"
+msgstr ""
+
+#: modules/admin/view/menu.php:6
+#: modules/index/view/menu.php:6
+#: modules/content/view/menu.php:6
+msgid "Centro de mensajes"
+msgstr ""
+
+#: modules/admin/view/menu.php:7
+#: modules/index/view/menu.php:7
+#: modules/content/view/menu.php:7
+msgid "Plantillas de mensajes"
+msgstr ""
+
+#: modules/admin/view/menu.php:8
+#: modules/index/view/menu.php:8
+#: modules/content/view/menu.php:8
+msgid "Mensajes programados"
+msgstr ""
+
+#: modules/admin/view/menu.php:9
+#: modules/index/view/menu.php:9
+#: modules/content/view/menu.php:9
+msgid "Mis mensajes"
+msgstr ""
+
+#: modules/admin/view/menu.php:10
+#: modules/index/view/menu.php:10
+#: modules/content/view/menu.php:10
+msgid "Estadísticas"
+msgstr ""
+
+#: modules/admin/view/menu.php:11
+#: modules/index/view/menu.php:11
+#: modules/content/view/menu.php:11
+msgid "Encuestas"
+msgstr ""
+
+#: modules/admin/view/menu.php:12
+#: modules/index/view/menu.php:12
+#: modules/content/view/menu.php:12
+msgid "Buscador"
+msgstr ""
+
+#: modules/admin/view/menu.php:18
+#: modules/index/view/menu.php:18
+#: modules/content/view/menu.php:18
+msgid "Administración"
+msgstr ""
+
+#: modules/admin/view/menu.php:23
+#: modules/index/view/menu.php:23
+#: modules/content/view/menu.php:23
+msgid "Cuentas de SMS"
+msgstr ""
+
+#: modules/index/controller/indexController.php:42
+msgid "Ya estás loggeado"
+msgstr ""
+
+#: modules/index/controller/indexController.php:53
+msgid "Autenticado con éxito"
+msgstr ""
+
+#: modules/index/controller/indexController.php:65
+#: modules/index/controller/indexController.php:70
+msgid "Combinación de usuario/contraseña incorrecta"
+msgstr ""
+
+#: modules/content/view/error/pages/pageNotFound.php:2
+msgid "Página no encontrada"
+msgstr ""
+
+#: modules/user/controller/userController.php:74
+msgid "Las contraseñas no coinciden"
+msgstr ""
+
+#: modules/user/controller/userController.php:78
+msgid "Por favor, introduzca una contraseña diferente a la que está en uso actualmente"
+msgstr ""
+
+#: modules/user/controller/userController.php:82
+msgid "Por favor, introduzca una contraseña de al menos 6 carácteres"
+msgstr ""
+
+#: modules/user/controller/userController.php:89
+msgid "Contraseña cambiada con éxito"
+msgstr ""
+
+#: modules/user/controller/userController.php:93
+msgid "Ha ocurrido un error al intentar cambiar la contraseña"
+msgstr ""
+
+#: modules/user/controller/userController.php:129
+#: modules/user/controller/userController.php:169
+msgid "Preferencias guardadas con éxito"
+msgstr ""
+
+#: modules/user/controller/userController.php:133
+#: modules/user/controller/userController.php:173
+msgid "Ocurrió un error, no pudieron guardarse las preferencias"
+msgstr ""
+
+#: modules/user/view/profile/publicProfile.php:3
+msgid "Perfil público del usuario "
+msgstr ""
+
+#: modules/user/view/profile/publicProfile.php:8
+msgid "Avatar de "
+msgstr ""
+
+#: modules/user/view/profile/profile.php:4
+#: modules/user/view/home.php:30
+#: modules/user/view/home.php:31
+#: modules/user/view/home.php:32
+msgid "Perfil"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:13
+msgid "Nombre completo"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:20
+msgid "Nombre a mostrar"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:27
+msgid "Correo electrónico"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:35
+msgid "Detalles personales"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:43
+msgid "Avatar"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:52
+msgid "Guardar cambios"
+msgstr ""
+
+#: modules/user/view/profile/profile.php:53
+#: modules/user/view/password/password.php:36
+#: modules/user/view/config/config.php:74
+msgid "Reiniciar"
+msgstr ""
+
+#: modules/user/view/home.php:2
+msgid "Página de usuario"
+msgstr ""
+
+#: modules/user/view/home.php:39
+#: modules/user/view/home.php:40
+#: modules/user/view/home.php:41
+#: modules/user/view/password/password.php:35
+msgid "Cambiar contraseña"
+msgstr ""
+
+#: modules/user/view/password/password.php:2
+msgid "Cambio de contraseña"
+msgstr ""
+
+#: modules/user/view/password/password.php:14
+msgid "Contraseña actual"
+msgstr ""
+
+#: modules/user/view/password/password.php:21
+msgid "Contraseña nueva"
+msgstr ""
+
+#: modules/user/view/password/password.php:28
+msgid "Contraseña nueva (verificar)"
+msgstr ""
+
+#: modules/user/view/config/config.php:3
+msgid "Configuración personal"
+msgstr ""
+
+#: modules/user/view/config/config.php:13
+msgid "¿Recibir avisos por email?"
+msgstr ""
+
+#: modules/user/view/config/config.php:28
+msgid "Idioma por defecto"
+msgstr ""
+
+#: modules/user/view/config/config.php:36
+msgid "Por favor, seleccione una opción"
+msgstr ""
+
+#: modules/user/view/config/config.php:73
+msgid "Guardar configuración"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:55
+msgid "Recibido"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:58
+msgid "Enviado"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:72
+msgid "No leído"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:75
+msgid "Leído"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:80
+msgid "En progreso"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:83
+msgid "Entregado"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:86
+msgid "Error"
+msgstr ""
+
+#: framework/plugins/SMSGateway/models/sms_message.class.php:89
+msgid "Desconocido"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:2
+msgid "404 Error: Página no encontrada"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:3
+msgid "El recurso solicitado <em>no existe</em> o <em>no está disponible</em> actualmente"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:5
+#: framework/lib/error/view/defaultForbiddenError.php:5
+msgid "Causas frecuentes de éste eror:"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:7
+msgid "Ha introducido una <em>URL</em> inexistente"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:8
+msgid "Su navegador ha accedido a una <em>URL</em> inexistente"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:13
+msgid "Compruebe que la <em>URL</em> está bien escrita (el sistema <em>distingue entre mayúsculas y minúsculas"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:14
+#: framework/lib/error/view/defaultInternalError.php:6
+#: framework/lib/error/view/defaultForbiddenError.php:15
+msgid "Vuelva a la"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:15
+#: framework/lib/error/view/defaultInternalError.php:7
+#: framework/lib/error/view/defaultForbiddenError.php:16
+msgid "página de inicio"
+msgstr ""
+
+#: framework/lib/error/view/defaultNotFoundError.php:17
+#: framework/lib/error/view/defaultInternalError.php:10
+#: framework/lib/error/view/defaultForbiddenError.php:19
+msgid "Notifique un error al <em>webmaster</em>"
+msgstr ""
+
+#: framework/lib/error/view/defaultInternalError.php:1
+msgid "Error interno"
+msgstr ""
+
+#: framework/lib/error/view/defaultInternalError.php:2
+msgid "Se ha producido un <em>error interno</em> en la aplicación"
+msgstr ""
+
+#: framework/lib/error/view/defaultInternalError.php:9
+msgid "Intente volver a cargar esta página"
+msgstr ""
+
+#: framework/lib/error/view/defaultForbiddenError.php:2
+msgid "403 Error: Acceso denegado"
+msgstr ""
+
+#: framework/lib/error/view/defaultForbiddenError.php:3
+msgid "Usted <em>no tiene permisos para acceder</em> al recurso solicitado"
+msgstr ""
+
+#: framework/lib/error/view/defaultForbiddenError.php:7
+msgid "Ha intentado entrar en un area restringida <em>sin estar autorizado</em> para ello"
+msgstr ""
+
+#: framework/lib/error/view/defaultForbiddenError.php:9
+msgid "Su navegador ha accedido a una URL <em>sin estar autorizado</em> para ello"
+msgstr ""
+
+#: framework/lib/error/view/defaultForbiddenError.php:18
+msgid "Verifique que ha iniciado una sesión"
+msgstr ""
+
+#: framework/lib/log/adapter/Display.class.php:107
+#: framework/log/templates/test.php:3
+msgid "Mensaje: "
+msgstr ""
+
+#: framework/lib/log/adapter/Display.class.php:108
+msgid "Traza de depuración: "
+msgstr ""
+
+#: framework/modules/system/controller/systemController.php:6
+msgid "Sesión cerrada con éxito"
+msgstr ""
+
+#: framework/log/templates/test.php:4
+msgid "Timestamp: "
+msgstr ""
+
+#: framework/models/user.class.php:123
+msgid "Bloqueado"
+msgstr ""
+
+#: framework/models/user.class.php:126
+msgid "No bloqueado"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:47
+msgid "January"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:52
+msgid "February"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:57
+msgid "March"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:62
+msgid "April"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:67
+msgid "May"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:72
+msgid "June"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:77
+msgid "July"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:82
+msgid "August"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:87
+msgid "September"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:91
+msgid "October"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:95
+msgid "November"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:99
+msgid "December"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:114
+msgid "Monday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:118
+msgid "Tuesday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:122
+msgid "Wednesday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:126
+msgid "Thursday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:130
+msgid "Friday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:134
+msgid "Saturday"
+msgstr ""
+
+#: framework/helpers/timeHelper.php:138
+msgid "Sunday"
+msgstr ""
+

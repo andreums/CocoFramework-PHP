@@ -1,0 +1,1 @@
+<h1>¡Hola <?php print $name; ?>!</h1>

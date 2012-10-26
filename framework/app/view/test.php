@@ -1,0 +1,1 @@
+<h1>¡Hola Mundo desde un view global!</h1>

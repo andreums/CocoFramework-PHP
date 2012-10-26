@@ -1,0 +1,6 @@
+¡Hola {%nombre%} !,
+bienvenido/a a nuestro sistema.
+Le agradecemos que haya depositado la confianza en {%nosotros%}.
+Un saludo;
+atentamente
+{%fromName%}
