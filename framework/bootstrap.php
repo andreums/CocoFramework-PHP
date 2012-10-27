@@ -9,6 +9,7 @@
  */
 
 define("BASE_PATH","/var/www/cocoframeworkphp/");
+define("APP_PREFIX","APP_");
 
 class bootstrap {
 
@@ -28,42 +29,52 @@ class bootstrap {
     private function _explodeClassName($class) {
         $classFile = "";
         $prefix    = substr($class, 0, 2);        
-        if (strcmp($prefix,'FW') === 0) {                        
-            $class = str_replace('_', '/', substr($class, 3));            
-            $pos   = strpos($class, '/');
-            
-            if ($pos === false) {                
-                $classFile = "framework/lib/{$class}/{$class}.class.php";                                
-            }
-            else {                
-                $package   = substr($class, 0, $pos);
-                if (strpos($class,"API")!==false) {
-                    $class     = explode('/',$class);
-                    array_shift($class);
-                    if (count($class)>1) {
-                        $class     = implode('/',$class);
-                        $pos       = strpos($class, '/');
-                        $package   = substr($class, 0, $pos);                    
-                        $classFile = "framework/lib/API/{$class}.class.php";
-                    }
-                    else {
-                        $class     = implode('/',$class);
-                        $pos       = strpos($class, '/');
-                        $package   = substr($class, 0, $pos);                    
-                        $classFile = "framework/lib/API/{$class}/{$class}.class.php";                        
-                    }
-                }
-                else {
-                    $classFile = "framework/lib/{$class}.class.php";
-                }               
-            }
+        if (strcmp($prefix,'FW') === 0) {
+            $namespace = "framework";
+            $classFile = $this->_loadClass($namespace, $class);
         } 
+        else if (strcmp($prefix,APP_PREFIX) === 0) {
+            $namespace = "app";
+            $classFile = $this->_loadClass($namespace, $class);
+        }
         else {
             if ((strlen($class) > 0) && ($class[0] == 'I') && (ctype_upper($class[1]))) {
                 $classFile = "framework/lib/interfaces/{$class}.class.php";
             }
         }        
         $classFile = BASE_PATH.$classFile;
+        return $classFile;
+    }
+    
+    private function _loadClass($namespace,$class) {        
+        $class = str_replace('_', '/', substr($class, 3));
+        $pos   = strpos($class, '/');
+            
+        if ($pos === false) {                
+            $classFile = "{$namespace}/lib/{$class}/{$class}.class.php";                                
+        }
+        else {                
+            $package   = substr($class, 0, $pos);
+            if (strpos($class,"API")!==false) {
+                $class     = explode('/',$class);
+                array_shift($class);
+                if (count($class)>1) {
+                    $class     = implode('/',$class);
+                    $pos       = strpos($class, '/');
+                    $package   = substr($class, 0, $pos);                    
+                    $classFile = "{$namespace}/lib/API/{$class}.class.php";
+                }
+                else {
+                    $class     = implode('/',$class);
+                    $pos       = strpos($class, '/');
+                    $package   = substr($class, 0, $pos);                    
+                    $classFile = "{$namespace}/lib/API/{$class}/{$class}.class.php";                        
+                }
+            }
+            else {
+                $classFile = "{$namespace}/lib/{$class}.class.php";
+            }               
+        }
         return $classFile;
     }
 
