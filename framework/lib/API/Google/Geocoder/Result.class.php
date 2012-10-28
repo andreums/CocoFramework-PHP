@@ -11,8 +11,11 @@
             
             $this->_types             = $data->types;
             $this->_geometry          = $data->geometry;
-            $this->_addressComponents = $data->address_components;
-            $this->_formatedAddress   = $data->formatted_address;            
+            $this->_addressComponents = array();
+            $this->_formatedAddress   = $data->formatted_address;
+            foreach ($data->address_components as $component) {
+                $this->_addressComponents []= new FW_API_Google_Geocoder_AddressComponent($component);
+            }            
         }
         
         
@@ -31,6 +34,17 @@
         
         public function getAddress() {
             return $this->_formatedAddress;
+        }
+        
+        public function getAddressComponents($index=null) {
+            if ($index===null) {
+                return $this->_addressComponents;
+            }
+            else {
+                if ($index<(count($this->_addressComponents)-1)) {
+                    return ($this->_addressComponents[$index]);
+                }
+            }
         }
         
         public function getTypes() {
