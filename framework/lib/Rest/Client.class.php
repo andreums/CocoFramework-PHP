@@ -122,8 +122,8 @@ class FW_Rest_Client implements IComponent {
                 $method   = $parameters->method;
             }
 
-            if ($parameters->hasParameter("data")) {
-                $post     = $parameters->data;
+            if ($parameters->hasParameter("parameters")) {
+                $post     = $parameters->parameters;
             }
 
             if ($parameters->hasParameter("type")) {
@@ -131,9 +131,7 @@ class FW_Rest_Client implements IComponent {
             }
         }
 
-        if (empty($endpoint)) {
-            throw new FW_Rest_Exception("Endpoint can't be empty. Aborting");
-        }
+        
 
         if (FW_Util_Array::notIn($method,array("GET","POST","PUT","DELETE"))) {
             throw new FW_Rest_Exception("Invalid HTTP verb. Verb must be GET, POST,PUT or DELETE. Aborting");
@@ -313,6 +311,63 @@ class FW_Rest_Client implements IComponent {
             }
         }
         return $this->_response;
+    }
+    
+    
+    public function get($endpoint,$type)  {
+        $parameters           = new FW_Container_Parameter();
+        $parameters->endpoint = $endpoint;
+        $parameters->method   = "GET";
+        $parameters->type     = $type;        
+        $client               = new FW_Rest_Client($parameters);
+        if ($client->exec()) {
+            $response = $client->getResponse();            
+            return $response->getBody();
+        }
+        return null;
+    }
+    
+    public function post($endpoint,$parameters,$type)  {
+        $parameters             = new FW_Container_Parameter();
+        $parameters->endpoint = $endpoint;
+        $parameters->method     = "POST";
+        $parameters->type       = $type;
+        $parameters->parameters = $parameters;        
+        $client                 = new FW_Rest_Client($parameters);
+        if ($client->exec()) {
+            $response = $client->getResponse();            
+            return $response->getBody();
+        }
+        return null;
+    }
+    
+    
+    public function put($endpoint,$parameters,$type)  {
+        $parameters             = new FW_Container_Parameter();
+        $parameters->endpoint = $endpoint;
+        $parameters->method     = "PUT";
+        $parameters->type       = $type;
+        $parameters->parameters = $parameters;        
+        $client                 = new FW_Rest_Client($parameters);
+        if ($client->exec()) {
+            $response = $client->getResponse();            
+            return $response->getBody();
+        }
+        return null;
+    }
+    
+    
+    public function delete($endpoint,$type)  {
+        $parameters           = new FW_Container_Parameter();
+        $parameters->endpoint = $endpoint;
+        $parameters->method   = "DELETE";
+        $parameters->type     = $type;        
+        $client               = new FW_Rest_Client($parameters);
+        if ($client->exec()) {
+            $response = $client->getResponse();            
+            return $response->getBody();
+        }
+        return null;
     }
 
 };

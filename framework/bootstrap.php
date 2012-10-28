@@ -42,7 +42,7 @@ class bootstrap {
                 $classFile = "framework/lib/interfaces/{$class}.class.php";
             }
         }        
-        $classFile = BASE_PATH.$classFile;
+        $classFile = BASE_PATH.$classFile;        
         return $classFile;
     }
     
@@ -58,20 +58,26 @@ class bootstrap {
             if (strpos($class,"API")!==false) {
                 $class     = explode('/',$class);
                 array_shift($class);
-                if (count($class)>1) {
-                    $class     = implode('/',$class);
+                if (count($class)>1) {                                  
+                    $class     = implode('/',$class);                    
                     $pos       = strpos($class, '/');
                     $package   = substr($class, 0, $pos);                    
-                    $classFile = "{$namespace}/lib/API/{$class}.class.php";
+                    $classFile = "{$namespace}/lib/API/{$class}.class.php";                    
+                    if (!is_file($classFile)) {
+                        $package   = explode('/',$class);
+                        $package   = ((count($package)>1)?$package[(count($package)-1)]:null);
+                        $class    .= "/{$package}";
+                        $classFile = "{$namespace}/lib/API/{$class}.class.php";                        
+                    }
                 }
-                else {
+                else {                    
                     $class     = implode('/',$class);
                     $pos       = strpos($class, '/');
                     $package   = substr($class, 0, $pos);                    
                     $classFile = "{$namespace}/lib/API/{$class}/{$class}.class.php";                        
                 }
             }
-            else {
+            else {                
                 $classFile = "{$namespace}/lib/{$class}.class.php";
             }               
         }
